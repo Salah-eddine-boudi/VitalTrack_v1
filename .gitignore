@@ -1,19 +1,31 @@
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Android Studio / IntelliJ
+.idea/
 *.iml
-.kotlin
-.gradle
-**/build/
-xcuserdata
-!src/**/build/
+/.fleet/
+
+# Local config
 local.properties
-.idea
+
+# OS
 .DS_Store
-captures
-.externalNativeBuild
-.cxx
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcodeproj/project.xcworkspace/
-!*.xcworkspace/contents.xcworkspacedata
-**/xcshareddata/WorkspaceSettings.xcsettings
-node_modules/
+Thumbs.db
+
+# Kotlin/Compose
+composeApp/build/
+androidApp/build/
+iosApp/build/
+shared/build/
+
+# Xcode / iOS
+iosApp/*.xcworkspace/
+iosApp/Pods/
+iosApp/DerivedData/
+*.xcuserdata/
+
+# Logs
+*.log
